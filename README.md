@@ -27,7 +27,7 @@
 
 
 #BlurEffectMenu Delegate
--
+
 - (void)blurEffectMenuDidTapOnBackground:(BlurEffectMenu *)menu{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
