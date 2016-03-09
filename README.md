@@ -29,12 +29,16 @@
 #BlurEffectMenu Delegate
 
 - (void)blurEffectMenuDidTapOnBackground:(BlurEffectMenu *)menu{
+
     //点击背景dismiss
     [self dismissViewControllerAnimated:YES completion:nil];
+    
 }
 
 - (void)blurEffectMenu:(BlurEffectMenu *)menu didTapOnItem:(BlurEffectMenuItem *)item{
+
     //点击每个item
     [self dismissViewControllerAnimated:YES completion:nil];
     NSLog(@"item.title:%@",item.title);
+    
 }
