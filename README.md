@@ -36,4 +36,4 @@
 
 效果图：
 
-     ![image](https://github.com/shenAlexy/BlurEffectMenu/blob/master/BlurEffectMenu/BlurEffectMenu/BlurEffectMenu.gif)
+ ![image](https://github.com/shenAlexy/BlurEffectMenu/blob/master/BlurEffectMenu/BlurEffectMenu/BlurEffectMenu.gif)
