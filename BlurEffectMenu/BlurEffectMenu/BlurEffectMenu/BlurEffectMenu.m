@@ -30,12 +30,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.view setBackgroundColor:kAppClearColor];
+    [self.view setBackgroundColor:[UIColor clearColor]];
     
+    //手势
     [self gesture];
     
-    //导航栏
-    [self configNav];
     //布局View
     [self setUpView];
 }
@@ -46,16 +45,6 @@
     UISwipeGestureRecognizer *swipeGesture=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(didTapOnBackground)];
     [swipeGesture setDirection:UISwipeGestureRecognizerDirectionUp];
     [self.view addGestureRecognizer:swipeGesture];
-}
-
-#pragma mark - configNav
-- (void)configNav{
-    [self setEnableBackButton:NO];
-    [self setTitle:@"消息中心"];
-    
-    UIImageView *rightImageView=[[UIImageView alloc]initWithFrame:CGRectMake(0.0, 0.0, 20.0, 20.0)];
-    [rightImageView setImage:[UIImage imageNamed:@"navAdd"]];
-    [self addRightBarButtonItem:[[UIBarButtonItem alloc]initWithCustomView:rightImageView]];
 }
 
 #pragma mark - setUpView
@@ -89,7 +78,7 @@
         UILabel *label=[[UILabel alloc]init];
         [label setFrame:CGRectMake(appviewx, button.frame.origin.y+button.bounds.size.height+5, appvieww, 25)];
         [label setTextColor:[UIColor grayColor]];
-        [label setFont:UIFont_size(14.0)];
+        [label setFont:[UIFont systemFontOfSize:14.0]];
         [label setTextAlignment:NSTextAlignmentCenter];
         [label setTag:i];
         [self.view addSubview:label];
@@ -156,7 +145,7 @@
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05*NSEC_PER_SEC)),dispatch_get_main_queue(), ^{
                 //UIView animate动画:仿钉钉弹出添加按钮,从顶部弹到指定位置
                 [UIView animateWithDuration:1.f delay:0.02*(label.tag) usingSpringWithDamping:0.6f initialSpringVelocity:1.5f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-                    [label setTextColor:kAppClearColor];
+                    [label setTextColor:[UIColor clearColor]];
                 } completion:^(BOOL finished) {
                 }];
             });

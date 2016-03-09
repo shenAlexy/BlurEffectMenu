@@ -6,7 +6,7 @@
 //  Copyright © 2016年 com.joinup. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import <UIKit/UIKit.h>
 
 @class BlurEffectMenu,BlurEffectMenuItem;
 
@@ -25,7 +25,7 @@
 @property (nonatomic,strong) UIImage *icon;//图标
 @end
 
-@interface BlurEffectMenu : BaseViewController
+@interface BlurEffectMenu : UIViewController
 
 @property (nonatomic,assign) id<BlurEffectMenuDelegate>delegate;
 @property (nonatomic,copy) NSArray *menuItemArr;
