@@ -1,7 +1,7 @@
 # BlurEffectMenu
 仿钉钉的毛玻璃弹出菜单，比较简单的实现，代码有注释。
 
-使用方法：
+#使用方法：
 
     BlurEffectMenuItem *addMattersItem=[[BlurEffectMenuItem alloc]init];
     [addMattersItem setTitle:@"添加事项"];
@@ -42,8 +42,6 @@
 
 #联系我
     微信公众号： iOSDevTeam
-    
     Email:  shenguanhua123@gmail.com
-    
-   [我的博客](http://blog.csdn.net/shenguanhua) 
+    [我的博客](http://blog.csdn.net/shenguanhua) 
 
