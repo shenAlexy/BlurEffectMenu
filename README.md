@@ -42,8 +42,6 @@
 
 #联系我
     微信公众号： iOSDevTeam
-    
     Email:  shenguanhua123@gmail.com
-    
     [我的博客](http://blog.csdn.net/shenguanhua)
     
