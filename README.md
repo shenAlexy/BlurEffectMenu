@@ -34,6 +34,7 @@
     //点击每个item
     - (void)blurEffectMenu:(BlurEffectMenu *)menu didTapOnItem:(BlurEffectMenuItem *)item;
 
-效果图：
 
- ![image](https://github.com/shenAlexy/BlurEffectMenu/blob/master/BlurEffectMenu/BlurEffectMenu/BlurEffectMenu.gif)
+#效果图：
+
+   ![image](https://github.com/shenAlexy/BlurEffectMenu/blob/master/BlurEffectMenu/BlurEffectMenu/BlurEffectMenu.gif)
