@@ -1,9 +1,6 @@
 # BlurEffectMenu
 仿钉钉的毛玻璃弹出菜单，比较简单的实现，代码有注释。
 
-效果图：
-     ![image](https://github.com/shenAlexy/BlurEffectMenu/blob/master/BlurEffectMenu/BlurEffectMenu/BlurEffectMenu.gif)
-
 使用方法：
 
     BlurEffectMenuItem *addMattersItem=[[BlurEffectMenuItem alloc]init];
@@ -36,3 +33,7 @@
 
     //点击每个item
     - (void)blurEffectMenu:(BlurEffectMenu *)menu didTapOnItem:(BlurEffectMenuItem *)item;
+
+效果图：
+
+     ![image](https://github.com/shenAlexy/BlurEffectMenu/blob/master/BlurEffectMenu/BlurEffectMenu/BlurEffectMenu.gif)
