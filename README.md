@@ -28,8 +28,8 @@
 
 #BlurEffectMenu Delegate
 
-//点击背景dismiss
-- (void)blurEffectMenuDidTapOnBackground:(BlurEffectMenu *)menu;
+    //点击背景dismiss
+    - (void)blurEffectMenuDidTapOnBackground:(BlurEffectMenu *)menu;
 
 //点击每个item
 - (void)blurEffectMenu:(BlurEffectMenu *)menu didTapOnItem:(BlurEffectMenuItem *)item;

@@ -16,6 +16,7 @@
 		C12B88421C8FF2BC00202F79 /* setupChat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12B883A1C8FF2BC00202F79 /* setupChat@2x.png */; };
 		C12B88431C8FF2BC00202F79 /* setupChat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12B883B1C8FF2BC00202F79 /* setupChat@3x.png */; };
 		C12B88451C8FF39700202F79 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C12B88441C8FF39700202F79 /* bg.png */; };
+		C12B88761C901AC400202F79 /* BlurEffectMenu.gif in Resources */ = {isa = PBXBuildFile; fileRef = C12B88751C901AC400202F79 /* BlurEffectMenu.gif */; };
 		C162D1661C89CE6C0034FD55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C162D1651C89CE6C0034FD55 /* main.m */; };
 		C162D1691C89CE6C0034FD55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C162D1681C89CE6C0034FD55 /* AppDelegate.m */; };
 		C162D16C1C89CE6C0034FD55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C162D16B1C89CE6C0034FD55 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 		C12B883A1C8FF2BC00202F79 /* setupChat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setupChat@2x.png"; sourceTree = "<group>"; };
 		C12B883B1C8FF2BC00202F79 /* setupChat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setupChat@3x.png"; sourceTree = "<group>"; };
 		C12B88441C8FF39700202F79 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		C12B88751C901AC400202F79 /* BlurEffectMenu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BlurEffectMenu.gif; sourceTree = "<group>"; };
 		C162D1611C89CE6C0034FD55 /* BlurEffectMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurEffectMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C162D1651C89CE6C0034FD55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C162D1671C89CE6C0034FD55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		C162D1631C89CE6C0034FD55 /* BlurEffectMenu */ = {
 			isa = PBXGroup;
 			children = (
+				C12B88751C901AC400202F79 /* BlurEffectMenu.gif */,
 				C12B88331C8FF2BC00202F79 /* Resources */,
 				C162D17B1C89CEBB0034FD55 /* BlurEffectMenu */,
 				C162D1671C89CE6C0034FD55 /* AppDelegate.h */,
@@ -191,6 +194,7 @@
 				C12B883D1C8FF2BC00202F79 /* addMatters@3x.png in Resources */,
 				C162D1711C89CE6C0034FD55 /* Assets.xcassets in Resources */,
 				C162D16F1C89CE6C0034FD55 /* Main.storyboard in Resources */,
+				C12B88761C901AC400202F79 /* BlurEffectMenu.gif in Resources */,
 				C12B88421C8FF2BC00202F79 /* setupChat@2x.png in Resources */,
 				C12B883C1C8FF2BC00202F79 /* addMatters@2x.png in Resources */,
 				C12B883E1C8FF2BC00202F79 /* addSchedule@2x.png in Resources */,
