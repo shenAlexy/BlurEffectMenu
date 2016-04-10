@@ -19,6 +19,7 @@
     [searchContactsItem setTitle:@"查找联系人"];
     [searchContactsItem setIcon:[UIImage imageNamed:@"searchContacts"]];
     
+    
     BlurEffectMenu *menu=[[BlurEffectMenu alloc]initWithMenus:@[addMattersItem,addSchedulesItem,setupChatItem,searchContactsItem]];
     [menu setDelegate:self];
     menu.modalPresentationStyle = UIModalPresentationOverFullScreen;
